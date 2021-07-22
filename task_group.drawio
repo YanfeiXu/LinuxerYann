@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T15:59:36.743Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="u4pufnV-HXxkAvF9JQCZ" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T16:05:31.923Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="I5q-x9DdlmeMC5HX2-Fs" version="14.8.6" type="github">
   <diagram id="AehVrfmtsksNN9VQQM8J" name="Page-1">
     <mxGraphModel dx="1758" dy="1052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#B0E3E6" math="0" shadow="0">
       <root>
@@ -30,9 +30,6 @@
         </mxCell>
         <mxCell id="AujPZ3HMkbZWtpJx0dt8-35" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;fontColor=#1A1A1A;strokeColor=#FFFFFF;fillColor=#F08E81;" vertex="1" parent="1">
           <mxGeometry x="1510" y="630" width="25" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="AujPZ3HMkbZWtpJx0dt8-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;fontColor=#1A1A1A;strokeColor=#FFFFFF;fillColor=#F08E81;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="834.5" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="AujPZ3HMkbZWtpJx0dt8-40" value="" style="endArrow=none;html=1;fontColor=#1A1A1A;strokeColor=#182E3E;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AujPZ3HMkbZWtpJx0dt8-33" target="AujPZ3HMkbZWtpJx0dt8-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -191,7 +188,7 @@
         <mxCell id="AujPZ3HMkbZWtpJx0dt8-120" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=20;fontColor=#1A1A1A;fillColor=none;strokeWidth=5;" vertex="1" parent="1">
           <mxGeometry x="1120" y="650" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="AujPZ3HMkbZWtpJx0dt8-121" value="指my_q成员为non-NULL的entity，即此entity是一个task_group" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;sketch=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="AujPZ3HMkbZWtpJx0dt8-121" value="指my_q成员为non-NULL的entity，为调度组的情况，其对应task_group中的se[0]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;sketch=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1540" y="555" width="320" height="5" as="geometry" />
         </mxCell>
         <mxCell id="AujPZ3HMkbZWtpJx0dt8-122" value="指my_q成员为NULL的entity，即此entity是一个线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;sketch=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
@@ -199,6 +196,12 @@
         </mxCell>
         <mxCell id="AujPZ3HMkbZWtpJx0dt8-106" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=20;fontColor=#000000;strokeColor=#000000;strokeWidth=3;gradientColor=none;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="918" y="528" width="112" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="AujPZ3HMkbZWtpJx0dt8-123" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;fontSize=20;strokeColor=#006EAF;strokeWidth=3;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AujPZ3HMkbZWtpJx0dt8-124" value="指一个调度组task_group" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;sketch=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="700" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
