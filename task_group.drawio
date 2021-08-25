@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-02T11:06:01.783Z" agent="5.0 (X11)" etag="U-5BOeI-2aVaKlyGw5Pn" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-25T11:22:30.009Z" agent="5.0 (X11)" etag="njWyT-h4ozl4ysH2_wFr" version="14.9.3" type="github">
   <diagram id="AehVrfmtsksNN9VQQM8J" name="Page-1">
-    <mxGraphModel dx="531" dy="341" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#B0E3E6" math="0" shadow="0">
+    <mxGraphModel dx="1312" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#B0E3E6" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,7 +185,7 @@
         <mxCell id="AujPZ3HMkbZWtpJx0dt8-120" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=20;fontColor=#1A1A1A;fillColor=none;strokeWidth=5;" parent="1" vertex="1">
           <mxGeometry x="1130" y="650" width="250" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="AujPZ3HMkbZWtpJx0dt8-121" value="指my_q成员为non-NULL的entity，即此entity代表一个任务组" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;sketch=0;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="AujPZ3HMkbZWtpJx0dt8-121" value="指my_q成员为non-NULL的entity，即此entity代表一个调度组" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;sketch=0;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1480" y="555" width="320" height="5" as="geometry" />
         </mxCell>
         <mxCell id="AujPZ3HMkbZWtpJx0dt8-122" value="指my_q成员为NULL的entity，即此entity是一个进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;sketch=0;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
@@ -197,13 +197,13 @@
         <mxCell id="AujPZ3HMkbZWtpJx0dt8-123" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;fontSize=20;strokeColor=#006EAF;strokeWidth=3;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1450" y="720" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AujPZ3HMkbZWtpJx0dt8-124" value="代表一个任务组task_group" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;sketch=0;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="AujPZ3HMkbZWtpJx0dt8-124" value="代表一个调度组task_group" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;sketch=0;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1460" y="700" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N9Yd0BoTZsZvrspfB05D-2" value="任务组A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
+        <mxCell id="N9Yd0BoTZsZvrspfB05D-2" value="调度组A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="380" y="770" width="96" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N9Yd0BoTZsZvrspfB05D-3" value="任务组B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
+        <mxCell id="N9Yd0BoTZsZvrspfB05D-3" value="调度组B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="570.5" y="770" width="96" height="20" as="geometry" />
         </mxCell>
         <mxCell id="N9Yd0BoTZsZvrspfB05D-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="1">
